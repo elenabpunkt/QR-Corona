@@ -1,5 +1,44 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+// /* import only the necessary Bootstrap files */
+// @import "../node_modules/bootstrap/scss/functions"; 
+// @import "../node_modules/bootstrap/scss/variables";
+// /* -------begin customization-------- */
+// /* change the primary theme color to red */
+// $theme-colors: (
+//   primary: red
+// );
+// h2 {
+//     color: red;
+// }
+// /* -------end customization-------- */
+// /* finally, import Bootstrap to set the changes! */
+// @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-h2{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+$gold: rgb(236, 206, 73);
+$green: rgb(72, 150, 35);
+$gray: rgb(70, 70, 70);
+
+.btn-primary {
+    background-color: $gray !important;
+    border-color: $gold !important;
+}
+
+.card {
+    border-color: $gold !important;
+}
+
+.welcome {
+    color: $gold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+}
+
+#collapseInfo {
+    text-align: center;
+}
+
+body {
+    background-color: $gray;
 }

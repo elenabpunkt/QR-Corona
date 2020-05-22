@@ -3,24 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="scss/styles.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
+        <div class="row">
+            <div class="col-9 text-left">
+                <h2 class="welcome mt-3">Willkommen in der Woistubb </h2>
+            </div>
+            <div class="col-3 text-right">
+                <img class="pictureTitle" src="/QR-Corona/pictures/Logo.jpeg">
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
         <div class="card border-danger mb-3">
             <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
-                    <button class="btn btn-danger btn-smbtn-danger" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseGetraenke" aria-expanded="false" aria-controls="collapseOne">
                     Getränke
                 </button>
                 </h2>
             </div>
-            <h2>Hallo</h2>
-    
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
-                <div class="card-body">Cola 0,4 3€</div>
+            <div id="collapseGetraenke" class="collapse" aria-labelledby="headingOne">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseWeine" aria-expanded="false" aria-controls="collapseOne">
+                        Weine
+                    </button>
+                    </h2>
+                </div>
+                <div id="collapseWeine" class="collapse" aria-labelledby="headingOne">
+                    <div class="card-body">Theo 0,2 2,70€</div>
+                </div>
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseAlkoholfreies" aria-expanded="false" aria-controls="collapseOne">
+                        Alkoholfreies
+                    </button>
+                    </h2>
+                </div>
+                <div id="collapseAlkoholfreies" class="collapse" aria-labelledby="headingOne">
+                    <div class="card-body">Cola 3€</div>
+                </div>
+            </div>
+        </div>
+        <div class="card border-danger mb-3">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseSpeisen" aria-expanded="false" aria-controls="collapseOne">
+                    Speisen
+                </button>
+                </h2>
+            </div>
+            <div id="collapseSpeisen" class="collapse" aria-labelledby="headingOne">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseOne">
+                        Vorspeisen
+                    </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingOne">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-9 text-left">
+                                Spundekäs
+                            </div>
+                            <div class="col-3 text-right">
+                                4,50 €
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseHauptspeisen" aria-expanded="false" aria-controls="collapseOne">
+                        Hauptspeisen
+                    </button>
+                    </h2>
+                </div>
+                <div id="collapseHauptspeisen" class="collapse" aria-labelledby="headingOne">
+                    <div class="card-body">
+                        <h4>Deftiges</h4>
+                        <div class="row">
+                            <div class="col-9 text-left">
+                                Schnitzel
+                            </div>
+                            <div class="col-3 text-right">
+                                8,10 €
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-9 text-left">
+                                Schweinenackensteak
+                            </div>
+                            <div class="col-3 text-right">
+                                7,00 €
+                            </div>
+                        </div>
+                        <br>
+                        <h4>Vegetarisches</h4>
+                        <div class="row">
+                            <div class="col-9 text-left">
+                                Ofenkartoffel mit mediteranem Gemüse
+                            </div>
+                            <div class="col-3 text-right">
+                                7,60 €
+                            </div>
+                        </div>
+                        <br>
+                        <h4> Beilagen</h4> 
+                        <div class="row">
+                            <div class="col-9 text-left">
+                                Bratkartoffeln
+                            </div>
+                            <div class="col-3 text-right">
+                                3,10 €
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseNachspeisen" aria-expanded="false" aria-controls="collapseOne">
+                        Dessert
+                    </button>
+                    </h2>
+                </div>
+                <div id="collapseNachspeisen" class="collapse" aria-labelledby="headingOne">
+                    <div class="card-body">
+                        Armer Ritter 5.00 € <br>
+                        gemischtes Eis 2.90 €
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card border-danger mb-3">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseInfo" aria-expanded="false" aria-controls="collapseOne">
+                    Infos zu den Corona Maßnahmen
+                </button>
+                </h2>
+            </div>
+            <div id="collapseInfo" class="collapse" aria-labelledby="headingOne">
+                Infos zu den Corona-Maßnahmen
             </div>
         </div>
     </div>
